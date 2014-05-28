@@ -1,0 +1,150 @@
+BODY {
+    font-family: Verdana, sans-serif;
+    background: url(/background.png) repeat-x top white;
+    background-attachment: fixed;
+}
+
+#page {
+    margin: 0px;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    border:1px gray solid;
+    background-color:white;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+#page h2 {
+    color:#0f2a44;
+    font-weight:bold;
+}
+
+#header {
+    width:885px;
+    height:85px;
+    border-bottom: 1px #aaa solid;
+    padding:5px;
+    margin-bottom:10px;
+    position:relative;
+
+}
+
+#header H1 {
+    margin:0px;
+    padding:0px;
+    margin-bottom:10px;
+}
+
+#navbar {
+    position:absolute;
+    top:65px;
+    right:8px;
+    font-size:14px;
+    color: #aaa;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#footer {
+    margin-top:20px;
+    border-top: 1px #aaa solid;
+    font-size:12px;
+    color: #666;
+    text-align:center;
+}
+
+.post {
+    margin:10px;
+    padding:10px;
+    border-top: 1px #ddd dashed;
+    color:#444;
+}
+
+.post i {
+    font-size:10px;
+    color:#999;
+}
+
+#postform {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    position:relative;
+    padding:10px;
+    margin:10px;
+    background-color: #eee;
+}
+
+.rightlink {
+    text-align:right;
+    margin-right:30px;
+    color:#aaa;
+}
+
+.rightlink a {
+    color: #f55000;
+    text-decoration: none;
+}
+
+a.username {
+    text-decoration: none;
+    font-weight:bold;
+    color:#629e43;
+    margin-right:10px;
+}
+
+h2.username {
+    color:#66dd66;
+    margin-left:15px;
+}
+
+a.button {
+margin-left:15px;
+text-decoration:none;
+border: 1px #aaa dotted;
+padding:3px;
+background-color:#eee;
+color:#444;
+font-size:12px;
+}
+
+#homeinfobox {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    position: absolute;
+    right:5px;
+    top:5px;
+    background-color: #ccc;
+    width:200px;
+    font-size:12px;
+    color:white;
+    padding:3px;
+}
+
+#welcomebox{
+    width:890px;
+    height:450px;
+    padding-top:10px;
+    position:relative;
+    font-size:14px;
+}
+#registerbox{
+    width:400px;
+    height:400px;
+    background-color:#e3e8e4;
+    float:right;
+    padding:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:3px #c8d8bf solid;
+    margin-right:0px;
+    margin-left:15px;
+}
+
